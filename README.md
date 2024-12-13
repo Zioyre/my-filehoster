@@ -1,4 +1,4 @@
-# all code for my [file upload service](https://upload.sshbuild.site)
+# all code for my [file upload service](https://zipguard.best)
 
 installation:
 
