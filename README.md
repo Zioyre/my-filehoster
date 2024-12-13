@@ -1,4 +1,4 @@
-# all code for my [file upload service](https://zipguard.best)
+# all code for my [file upload service](https://zip-guard.best)
 
 installation:
 
