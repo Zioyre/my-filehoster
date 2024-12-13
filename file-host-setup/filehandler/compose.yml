@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "48723:48723"
+    volumes:
+      - /mnt/storage/files:/app/files
+    restart: unless-stopped

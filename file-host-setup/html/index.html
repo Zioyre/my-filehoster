@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Uploader</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 0vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        form {
+            margin: 10px 0;
+        }
+
+        .uploadbutton {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>File Uploader</h1>
+    <h2>Have Fun!</h2>
+    <form enctype="multipart/form-data" action="https://files.sshbuild.site/upload" method="post">
+        <input type="file" name="file">
+        <input type="submit" value="upload" class="uploadbutton">
+    </form>
+    <p>max file size 128mb</p>
+</body>
+</html>
+
+
+
+
+
+
+# made nice with chatgpt
+
